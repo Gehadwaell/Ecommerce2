@@ -1,0 +1,7 @@
+nav{
+    transition: padding 1s;
+    -webkit-transition: padding 1s;
+    -moz-transition: padding 1s;
+    -ms-transition: padding 1s;
+    -o-transition: padding 1s;
+}

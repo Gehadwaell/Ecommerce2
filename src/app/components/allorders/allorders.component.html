@@ -1,0 +1,10 @@
+<section class="w-75 mx-auto bg-main-light p-3 rounded-3 my-2">
+
+<h1>All Orders History</h1>
+<div *ngFor="let item of allOrders">
+    <p>Total Order Price:{{item.totalOrderPrice}}</p>
+    <p>Order's Date:{{item.createdAt}}</p>
+</div>
+
+
+</section>
